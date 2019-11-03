@@ -18,7 +18,7 @@ sidebar-avatar: /img/about-girl.jpg      #  侧边栏头像 use absolute URL, se
 
 # SNS settings  联系方式的设置
 RSS: false
-weibo_username:     油炸板蓝根
+weibo_username:     makeMySail
 zhihu_username:     makeMySail # 知乎的名字，可以在设置中设置
 github_username:    413180794
 # facebook_username:  baiying.qiu.7
