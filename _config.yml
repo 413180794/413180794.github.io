@@ -1,10 +1,10 @@
 # Site settings
-title: ISATIS Blog # 标题
-SEOTitle: 油炸板蓝根| ISATIS Blog # 网页顶部标题
+title: MakeSail Blog # 标题
+SEOTitle: 油炸板蓝根| MakeSail Blog # 网页顶部标题
 header-img: img/post-bg-desk.jpg # 顶部的背景
 email: 413180794@qq.com # 个人邮箱
 description: "我曾踏月而来，只因你在山中" # 简述
-keyword: "ISATIS, ISATIS Blog, 油炸板蓝根, ISATIS, 油炸板蓝根, Android, Apple, iPhone"
+keyword: "MakeSail, MakeSail Blog, 油炸板蓝根, MakeSail, 油炸板蓝根, Android, Apple, iPhone"
 url: "https://413180794.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/413180794/413180794.github.io.git" # you code repository
