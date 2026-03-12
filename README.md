@@ -1,25 +1,82 @@
+# MakeSail Blog
 
+> 我曾踏月而来，只因你在山中
 
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
-
-[![Build Status](https://travis-ci.org/qiubaiying/qiubaiying.github.io.svg?branch=master)](https://travis-ci.org/qiubaiying/qiubaiying.github.io)
-[![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-qiubaiying-qiubaiying-github-io-master)
-[![GitHub issues](https://img.shields.io/github/issues/qiubaiying/qiubaiying.github.io.svg?style=flat)](https://github.com/qiubaiying/qiubaiying.github.io/issues)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-[![](https://img.shields.io/github/stars/qiubaiying/qiubaiying.github.io.svg?style=social&label=Star)](https://github.com/qiubaiying/qiubaiying.github.io)
-[![](https://img.shields.io/github/forks/qiubaiying/qiubaiying.github.io.svg?style=social&label=Fork)](https://github.com/qiubaiying/qiubaiying.github.io)
-
-
-博客的搭建教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 
- 
-更为详细的教程戳这 [《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 或 [wiki](https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
-
->
 ### [查看博客戳这里 👆](https://413180794.github.io/)
 
+博客基于 [Jekyll](http://jekyllcn.com/) 搭建，托管在 GitHub Pages 上。模板修改自 [Hux](https://github.com/Huxpro/huxpro.github.io)。
 
+---
 
-## 使用
+## 快速开始
+
+### 1. 克隆仓库
+
+```bash
+git clone https://github.com/413180794/413180794.github.io.git
+cd 413180794.github.io
+```
+
+### 2. 安装 Jekyll 并本地预览
+
+```bash
+# 安装 Jekyll（需要 Ruby 环境）
+gem install jekyll bundler
+
+# 本地启动预览
+jekyll serve
+# 或
+bundle exec jekyll serve
+```
+
+然后在浏览器中打开 `http://127.0.0.1:4000/` 即可预览。
+
+### 3. 写一篇新文章
+
+在 `_posts/` 目录下新建一个 Markdown 文件，文件名格式为 `YYYY-MM-DD-标题.md`，例如：
+
+```
+_posts/2026-03-12-我的新文章.md
+```
+
+文件开头需要添加 YAML 头信息：
+
+```yaml
+---
+layout:     post
+title:      文章标题
+subtitle:   副标题（可选）
+date:       2026-03-12
+author:     MakeSail
+header-img: img/post-bg-desk.jpg
+catalog:    true
+tags:
+    - 标签1
+    - 标签2
+---
+
+正文内容写在这里，支持 Markdown 语法。
+```
+
+### 4. 发布
+
+把改动 push 到 `master` 分支，GitHub Pages 会自动构建部署：
+
+```bash
+git add .
+git commit -m "发布新文章"
+git push origin master
+```
+
+稍等片刻，访问 https://413180794.github.io/ 即可看到更新。
+
+### 5. 个性化配置
+
+编辑 `_config.yml` 文件可以修改博客标题、头像、社交账号、评论系统等所有配置项。
+
+---
+
+## 详细使用说明
 
 * 开始
 	* [环境](#环境)
